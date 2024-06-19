@@ -30,13 +30,13 @@ body {
 
 .container-big-header {
     height: 86vh;  /*It was 720px*/
-    /*background-color: var(--pinkish-color);*/
-    background-image: url(/images/director.jpg);
+    background-color: var(--pinkish-color);
+    /*background-image: url(/images/director.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-position-x: 36%;
     background-position-y: 43%;
-    /*background-size: 100% 100%;*/
+    /*background-size: 100% 100%;*/*/
 }
 
 .nav-container {
@@ -79,7 +79,7 @@ body {
     font-weight: bold;
     margin-left: 27px;
     margin-top: 14px;
-    color: var(--pinkish-color);
+    color: var(--black-color);
 }
 
 .logo-without-motto {
@@ -91,7 +91,7 @@ body {
     margin-left: 55px;
     padding-top: 10px;
     font-weight: bold;
-    color: var(--pinkish-color);
+    color: var(--black-color);
 }
 
 .logo {
@@ -119,11 +119,11 @@ nav li {
 nav a {
     font-size: 1.6rem;
     font-weight: bold;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 nav a:hover, a:hover {
-    color: var(--pinkish-color);
+    color: var(--green-color);
 }
 
 nav a:active, a:active {
