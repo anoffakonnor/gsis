@@ -138,7 +138,8 @@ svg {
     margin-top: 30px;
     width: 46px;
     height: 49px;
-}
+} 
+
 
 /*---------------------------------------------------------------*/
                         /*SECTION 2*/
@@ -146,6 +147,7 @@ svg {
 
 .welcome-section {
     display: flex;
+    flex-shrink: 0;
     gap: 30px;
     width: 80%;
     margin: 0 auto;
@@ -189,6 +191,7 @@ p {
 }
 
 /*------------------ Aside -------------- */
+
 .welcome-aside{
     width: 20%;
 }
@@ -206,6 +209,8 @@ header .upcoming-event {
     border: 1px solid #707070;
     margin-bottom: 58px;
     display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .deep-green-box {
@@ -281,6 +286,7 @@ header .upcoming-event {
     height: 350px;
     margin-bottom: 80px;
     border-radius: 24px;
+    flex-shrink: 0;
 }
 
 /*---------------- Section 4 -------------------*/
@@ -372,7 +378,7 @@ header .upcoming-event {
     }
 }
 
-@media (max-width: 1080px ) {
+@media (max-width: 1285px ) {
     nav li {
         display: inline-block;
         margin-left: 56px;
@@ -380,7 +386,7 @@ header .upcoming-event {
     }
 }
 
-@media (max-width: 810px ) {
+@media (max-width: 1180px ) {
     nav li {
         display: inline-block;
         margin-left: 40px;
@@ -388,15 +394,18 @@ header .upcoming-event {
     }
 }
 
-@media (max-width: 608px){
+@media (max-width: 1085px){
     nav li {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 24px;
         padding-top: 35px;
 }
 
-@media (max-width: 456px){
-
+@media (max-width: 984px){
+    nav li {
+        display: inline-block;
+        margin-left: 8px;
+        padding-top: 35px;
 }
 
 @media (max-width: 342px){
