@@ -24,6 +24,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .big-header-section {
     margin-bottom: 56px;
 }
@@ -35,8 +39,8 @@ body {
     background-repeat: no-repeat;
     background-position:center;
     background-position-x: 36%;
-    background-position-y: 43%;
-    /*background-size: 100% 100%;*/*/
+    background-position-y: 43%;*/
+    /*background-size: 100% 100%;*/
 }
 
 .nav-container {

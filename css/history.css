@@ -24,6 +24,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .big-header-section {
     margin-bottom: 64px;
 }
