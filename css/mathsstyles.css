@@ -409,16 +409,23 @@ tbody {
 .section2c-home {
     background-color:#f3eeee;
     padding: 1em;
+    
+}
+
+.section-2c {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .learn-one {
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
-   gap: 4em;
+    gap: 2em;
 }
 
-.topic {
-    width: 60%;
+.next-topic {
+    width: 70%;
     padding: 0 1em 1em 1em;
     font-size: 1.8rem;
     line-height: 1.3;
@@ -429,34 +436,35 @@ tbody {
 
 .explanatory-contents {
     margin: 0 auto;
-    width: 35%;
+    width: 40%;
 }
 
 .explanatory-diagrams {
     display: flex;
     margin-bottom: 3em;
-    gap: 2em;
+    gap: 1em;
 }
 
 .cardinal-points {
-    width: 250px;
-    height: 250px;
+    width: 45%;
 }
 
-/*.explanatory-links {
-    display: flex;
-    gap: 2em;
-}*/
+.bearings {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
 
 .learn-link-parent {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    width: 50%;
 }
 
 .learn-link {
     border: 1px solid black;
-    width: 80%;
+    width: 85%;
     height: 48%;
     background-color: #2b2b2b;
     padding: 1em;
