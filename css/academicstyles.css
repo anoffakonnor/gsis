@@ -3,7 +3,7 @@
     --black-color: #371061;
     --light-green-color: #CEECEF;
     --white-color: #ffffff;
-    --pinkish-color: #efe6e6;;
+    --pinkish-color: #efe6e6;
     --alternate-green-color: ;
 }
 
@@ -291,14 +291,16 @@ header .upcoming-event {
     background-color: #fbf3e2;
 }
 
-.jhspic {
+/*.jhspic {
     background-color: #fbf3e2;
     background-image: url(/images/jesdonal.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-position-x: 36%;
     background-position-y: 34%;
-}
+}*/
+
+
 
 
 
