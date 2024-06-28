@@ -347,5 +347,605 @@ header .upcoming-event {
     font-size: 1.36rem
 }
 
+
+
+
+
 /*----------------- Media Query ---------------*/
 /*---------------------------------------------*/
+
+@media(max-width:412px){
+    .big-header-section {
+        margin-bottom: 24px;
+    }
+    
+    .container-big-header {
+        height: 200px;
+        background-color: #efe6e6;
+    }
+    
+    .nav-container {
+        width: 80%;  /*-Later I'll take out this 
+        attribute and put it in a cluster of 
+        attributes that all will have a width of 80%*/
+        padding-top: 16px;
+        margin: 0 auto;
+    }
+    
+    /*------- ABOUT LOGO ----------------------*/
+    #nav-crest {
+        width: 60px;
+        height: 83px;
+    }
+    
+    .logo-bar-green {
+        width: 5px;
+        height: 40px;
+        background-color: #2cb6c1; 
+    }
+    
+    .logo-bar-deep-blue {
+        width: 5px;
+        height: 40px;
+        background-color: #371061;
+    }
+    
+    .logo-separator {
+        margin-left: 18px;
+        margin-top: 5px;
+    }
+    
+    .good, .shepherd, .international, .school  {
+        display: block;
+    }
+    
+    .school-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 18px;
+        margin-top: 9px;
+        color:#371061;
+    }
+    
+    .logo-without-motto {
+        display: flex;
+    }
+    
+    .motto {
+        font-size: 12px;
+        margin-left: 28px;
+        padding-top: 5px;
+        font-weight: bold;
+        color:#371061;
+    }
+    
+    .logo {
+        margin: 16px auto;
+    }
+    
+    /*-------------------NAVIGATION BAR----------------*/
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 35%;/*The percentage shifts the box to the
+        right*/
+        flex-direction: column;
+        padding: min(30vh, 15rem) 2rem;
+        gap: 2em;
+
+        transform: translateX(100%);
+    }
+
+    .mobile-nav-toggle {
+        display:block;
+        position:absolute;
+        z-index: 9999;
+        background: url("/images/toggle-menu.png");
+        background-repeat: no-repeat;
+        width: 3.3rem;
+        border: 0;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-left: 4px;
+        padding-top: 15px;
+    }
+    
+    nav a {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var(--black-color);
+    }
+    
+    nav a:hover, a:hover {
+        color: var(--green-color);
+    }
+    
+    nav a:active, a:active {
+        color: var(--green-color);
+    }
+    
+    /*-----------------------SEARCH--------------------*/
+    
+    /*
+    
+    svg {
+        rotate: 90deg;
+        margin-left: 565px;
+        margin-top: 30px;
+        width: 23px;
+        height: 25px;
+    }
+    
+    */
+    /*------------------ Aside -------------- */
+    
+    .welcome-aside{
+        width: 100%;
+        padding-top: 1em;
+    }
+    
+    header .upcoming-event {
+        font-size: 12px;
+        color:#371061;
+        margin-bottom: 12px;
+    }
+    
+    .aside-box {
+        width: 100%;
+        /*height: 90%; Change this later to suit the 
+                        picture*/
+        border: 1px solid #707070;
+        margin-bottom: 58px;
+        display: flex;
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
+    
+    .director-image {
+        width: 100%;
+        height: 100%;
+    }
+    /*-------------------------------------------------*/
+                            /*SECTION 2*/
+    /*-------------------------------------------------*/
+    
+    .welcome-section {
+        display: block;
+        /*flex-shrink: 0;*/
+        gap: 5%;
+        width: 80%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 80px;
+    }
+    
+    .welcome-div {
+        width: 100%;
+        margin-right: 40px;
+        border-bottom: 1px solid var(--green-color);
+        padding-bottom: 1em;
+    }
+    
+    .heading-line-green {
+        width: 5px;
+        height: 24px;
+        background-color:#2cb6c1;
+    }
+    
+    .heading-line-black {
+        width: 5px;
+        height: 40px;
+        background-color:var(--black-color);
+    }
+    
+    .welcome {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    
+    header .welcome-greeting {
+        font-size: 1.8em;
+        color: #371061;
+    }
+    
+    .welcome-div li {
+        line-height: 1;
+        /*letter-spacing: 1px;*/
+        font-size: 1.2rem;
+        color: #371061;
+        margin-bottom: 8px;
+    
+    }
+
+    p {
+        line-height: 1.2;
+        /*letter-spacing: 1px;*/
+        font-size: 1.4em;
+        color: #371061;
+        margin-bottom: 8px;
+        text-align: justify;
+        text-justify: inter-cluster;
+    }
+    
+    /*.welcome-div li a{
+        text
+    }*/
+    
+    .welcome-div h2 {
+        color: orangered;
+        font-size: 1.4rem; 
+        background-color: var(--pinkish-color); 
+        text-align: center;
+        margin-bottom: 16px;
+        border-radius: 30%;
+    }
+    
+    .welcome-div h3 {
+        color: orangered;
+        font-size: 1rem;
+    }
+    
+    .welcome-div h3:hover {
+        color: blue;
+    }
+    
+    
+    
+    
+    
+    /*--------------------- Section 2B -----------*/
+    
+    .section2b-container {
+        margin-bottom: 40px;
+    }
+    
+    .levels-heading {
+        width: 80%;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin: 12px auto;
+    }
+    
+    .levels-header {
+        font-size: 1rem;
+        color: var(--black-color);
+    }
+    
+    /*.philosophy quote {
+        margin: auto;
+        text-align: center;
+        font-size: 2.4rem;
+        color: #371061;
+        text-shadow: 1px 1px 1px var(--black-color);
+    }
+    */
+    
+    .levels {
+        width: 100%;
+        /*background-color:#CEECEF;
+        height: 1440px;
+        display: flex;*/
+        /*justify-content: space-evenly;*/
+        background-image: url(/images/mathset.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        /*background-position-x: 36%;
+        background-position-y: 43%;*/
+        background-size: 100% 100%;
+    }
+    
+    .level-box {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /*gap: 4%;*/
+        margin-bottom: 8px;
+    }
+    
+    .level-name-div {
+        width: 48%;
+        height: 100%;
+        background-color: var(--white-color);
+        align-content: center;
+    }
+    
+    .image-div {
+        width: 52%;
+        height: 100%;
+    }
+    
+    .level-name-div h2 {
+        margin: 0 auto;
+        font-size: 2.4rem;
+        text-align: center;
+        color:#371061;
+        text-transform: uppercase;
+    }
+    
+    .bs9 {
+        background-color: #bbd0dd;
+    }
+    
+    .bs8 {
+        background-color: #e6e1eb;
+    }
+    
+    .bs7 {
+        background-image: url(/images/jesdonal.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-position-x: 52%;
+        background-position-y: 32%;
+    }
+    
+    .bs9writing {
+        background-color: #fbf3e2;
+    }
+    .bs8writing {
+        background-color: #fbf3e2;
+    }
+    .bs7writing {
+        background-color: #fbf3e2;
+    }
+    .bs6writing {
+        background-color: #fbf3e2;
+    }
+    .bs5writing {
+        background-color: #fbf3e2;
+    }
+    
+    
+    .bs6 {
+        background-color: #bbd0dd;
+    }
+    
+    .bs5 {
+        background-color: #e6e1eb;
+    }
+
+    /*--------------------  Section 2b ------------*/
+
+table {
+    width: 100%;
+    color:#371061;
+    line-height: 1;
+    align-items: center;
+}
+
+thead, tbody {
+    text-align: center;
+}
+
+thead {
+    font-size: 1.5rem;
+}
+
+tbody {
+    font-size: 1.2rem;
+}
+
+
+    /*-------------------- Section 2c -----------------*/
+.section2c-home {
+    background-color:#f3eeee;
+    padding: 0.5em;
+}
+
+.learn-one {
+    /*display: flex;*/
+    display: block;
+    /*justify-content: space-evenly;
+    gap: 4em;*/
+}
+
+.topic {
+    width: 100%;
+    padding: 0 0.5em 0.5em 0.5em;
+    font-size: 1.15rem;
+    line-height: 1.3;
+}
+.topic p {
+    margin-bottom: 0.4em;
+}
+
+.explanatory-contents {
+    margin: 0 auto;
+    width: 35%;
+}
+
+.explanatory-diagrams {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.cardinal-points {
+    width: 250px;
+    height: 250px;
+}
+
+.explanatory-links {
+    display: flex;
+    gap: 2em;
+}
+
+.learn-link-parent {
+    /*display: flex;*/
+    /*flex-direction: column;
+    gap: 0.5em;*/
+    align-items: center;
+}
+
+.learn-link {
+    border: 1px solid black;
+    width: 87%;
+    height: 48%;
+    background-color: #2b2b2b;
+    padding: 1em;
+    border-radius: 1em;
+    color: var(--pinkish-color)
+}
+
+    
+    
+    /*------------------------------------------------
+                            SECTION 3
+    --------------------------------------------------*/
+    
+    .section3-container {
+        width: 80%;
+        margin: 0 auto;  
+    }
+    
+    .section3-header, .section4-header {
+        font-size: 1.4rem;
+        color: var(--black-color)
+    }
+    
+    .home-box-pix {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .home-pix-header {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    
+    .section-pic {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    
+    /*.blue-box {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 80px;
+        border-radius: 16px;
+    }*/
+    
+    /*---------------- Section 4 -------------------*/
+    
+    .links-section {
+        width: 100%;
+        background-color:#2cb6c1;
+        height: 60vh;
+        margin-bottom: 80px;
+    }
+    
+    .quick-links {
+        margin: 0 auto;
+        width: 90%;
+        padding: 3em;
+    }
+    
+    .quick-links-header {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .l-boxes {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    
+    .link-box {
+        padding: 0.8em;
+        width: 32%;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        border-radius: 8px;
+        height: 37vh;
+    }
+    
+    .contact{
+        display: block;
+        font-size: 1rem;
+        color:var(--black-color);
+        font-weight: bolder;
+    }
+
+    .section3-line {
+        width: 5px;
+        height: 20px;
+        background-color:var(--black-color);
+    }
+    
+    .link-box ul {
+        list-style: circle;
+    }
+    
+    .link-box li {
+        font-size: 1rem;
+        color: var(--pinkish-color);
+        line-height: 2;
+    }
+    
+    .link-box a {
+        color: var(--white-color);
+        text-decoration: none;
+    }
+    
+    .link-box a:hover {
+        color: #2cb6c1;
+    }
+    
+    .link-box a:active {
+        color: #e0a21b;
+    }
+    
+    /*----------------- Section 5 ----------------*/
+    
+    .footer-div p{
+        margin: 0 auto;
+        text-align: center;
+        color: #371061;
+        font-size: 1rem
+    }
+    
+}
+
+@media (max-width: 342px){
+
+}
+
+@media (max-width: 257px){
+
+}
+
+@media (max-width: 193px){
+
+}
+
+@media (max-width: 144px){
+
+}

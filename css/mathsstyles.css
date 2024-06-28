@@ -419,8 +419,7 @@ tbody {
 
 .learn-one {
     display: flex;
-    width: 80%;
-    justify-content: space-evenly;
+    width: 88%;
     gap: 2em;
 }
 
@@ -471,6 +470,22 @@ tbody {
     padding: 1em;
     border-radius: 1em;
     color: var(--pinkish-color)
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2em;
+}
+
+.write-up {
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+.write-up img {
+    display: block;
+    max-width: 100%;
 }
 
 
@@ -1058,6 +1073,22 @@ tbody {
     padding: 1em;
     border-radius: 1em;
     color: var(--pinkish-color)
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2em;
+}
+
+.write-up {
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+.write-up img {
+    display: block;
+    max-width: 100%;
 }
 
     
