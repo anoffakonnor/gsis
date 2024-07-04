@@ -635,6 +635,25 @@ tbody {
     font-size: 1.36rem
 }
 
+/*----------- Marks-------*/
+.marks {
+    width: 100%;
+    color:#371061;
+    line-height: 2;
+}
+
+.marks thead, .marks tbody {
+    text-align: center;
+}
+
+thead {
+    font-size: 2rem;
+}
+
+tbody {
+    font-size: 1.4rem;
+}
+
 /*----------------- Media Query ---------------*/
 /*---------------------------------------------*/
 
