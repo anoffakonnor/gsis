@@ -33,14 +33,14 @@ a {
 }
 
 .container-big-header {
-    height: 86vh;  /*It was 720px*/
-    background-color: var(--pinkish-color);
-    /*background-image: url(/images/director.jpg);
+    height: 90vh;
+    /*background-color: var(--pinkish-color);*/
+    background-image: url(../images/school-pic.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-position-x: 36%;
-    background-position-y: 43%;*/
-    /*background-size: 100% 100%;*/
+    background-position-y: 43%;
+    background-size: 100% 100%;
 }
 
 .nav-container {
@@ -83,7 +83,7 @@ a {
     font-weight: bold;
     margin-left: 27px;
     margin-top: 14px;
-    color: var(--black-color);
+    color: var(--pinkish-color);
 }
 
 .logo-without-motto {
@@ -95,7 +95,7 @@ a {
     margin-left: 55px;
     padding-top: 10px;
     font-weight: bold;
-    color: var(--black-color);
+    color: var(--pinkish-color);
 }
 
 .logo {
@@ -123,7 +123,7 @@ nav li {
 nav a {
     font-size: 1.6rem;
     font-weight: bold;
-    color: var(--black-color);
+    color: var(--pinkish-color);
 }
 
 nav a:hover, a:hover {
@@ -464,7 +464,7 @@ header .upcoming-event {
         font-weight: bold;
         margin-left: 18px;
         margin-top: 9px;
-        color:#371061;
+        color:var(--pinkish-color);
     }
     
     .logo-without-motto {
@@ -476,11 +476,12 @@ header .upcoming-event {
         margin-left: 28px;
         padding-top: 5px;
         font-weight: bold;
-        color:#371061;
+        color:var(--pinkish-color);
     }
     
     .logo {
         margin: 16px auto;
+        background-color: #48167d6b;
     }
     
     /*-------------------NAVIGATION BAR----------------*/

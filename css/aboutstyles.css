@@ -3,7 +3,7 @@
     --black-color: #371061;
     --light-green-color: #CEECEF;
     --white-color: #ffffff;
-    --pinkish-color: #efe6e6;;
+    --pinkish-color: #efe6e6;
     --alternate-green-color: ;
 }
 
@@ -207,7 +207,8 @@ header .upcoming-event {
 
 .aside-box {
     width: 100%;
-    height: 90%; /*Change this later to suit the picture*/
+    /*height: 90%; Change this later to suit 
+    the picture*/
     background-color: #CEECEF;
     border: 1px solid #707070;
     margin-bottom: 58px;
@@ -221,10 +222,98 @@ header .upcoming-event {
     height: 100%;
 }
 
+
+/*--------------------- Section 2B -----------*/
+
+.section2b-container {
+    margin-bottom: 80px;
+}
+
+.levels-heading {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.levels-header {
+    font-size: 2.4rem;
+}
+
+.levels {
+    width: 100%;
+    background-color:#CEECEF;
+    height: 1440px;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+}
+
+.level-box {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+    /*gap: 4%;*/
+}
+
+.level-name-div {
+    width: 48%;
+    height: 100%;
+    background-color: var(--white-color);
+    align-content: center;
+}
+
+.image-div {
+    width: 52%;
+    height: 100%;
+}
+
+.level-name-div h2 {
+    margin: 0 auto;
+    font-size: 4rem;
+    text-align: center;
+    color:#371061;
+    text-transform: uppercase;
+}
+
+.creche {
+    background-color: #bbd0dd;
+}
+
+.primary {
+    background-color: #e6e1eb;
+}
+
+.jhs {
+    background-color: #fbf3e2;
+}
+
+/*.jhspic {
+    background-color: #fbf3e2;
+    background-image: url(/images/jesdonal.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-x: 36%;
+    background-position-y: 34%;
+}*/
+
+
+
+
+
+
+
+
 /*-----------------------------------------------------------------
                         SECTION 3
 -----------------------------------------------------------------*/
 
+.section3-home {
+    background-color: var(--pinkish-color);
+}
 .section3-container {
     width: 80%;
     margin: 0 auto;  
@@ -346,7 +435,6 @@ header .upcoming-event {
     color: #371061;
     font-size: 1.36rem
 }
-
 
 
 
@@ -635,8 +723,9 @@ header .upcoming-event {
     
     .levels {
         width: 100%;
+        height: 100%;
         /*background-color:#CEECEF;
-        height: 1440px;
+        
         display: flex;*/
         /*justify-content: space-evenly;*/
         background-image: url(/images/mathset.jpg);
@@ -666,6 +755,11 @@ header .upcoming-event {
     
     .image-div {
         width: 52%;
+        height: 100%;
+    }
+
+    img {
+        width: 100%;
         height: 100%;
     }
     
@@ -720,7 +814,7 @@ header .upcoming-event {
 
     /*--------------------  Section 2b ------------*/
 
-table {
+/*table {
     width: 100%;
     color:#371061;
     line-height: 1;
@@ -737,7 +831,7 @@ thead {
 
 tbody {
     font-size: 1.2rem;
-}
+} */
 
 
     /*-------------------- Section 2c -----------------*/
@@ -813,6 +907,7 @@ tbody {
     .section3-container {
         width: 80%;
         margin: 0 auto;  
+        align-content: center;
     }
     
     .section3-header, .section4-header {
@@ -829,6 +924,7 @@ tbody {
     }
     
     .home-pix-header {
+        padding-top: 1.5em;
         display: flex;
         gap: 8px;
         align-items: center;
@@ -949,3 +1045,4 @@ tbody {
 @media (max-width: 144px){
 
 }
+
