@@ -306,7 +306,7 @@ header .welcome-greeting {
     height: 1440px;
     display: flex;*/
     /*justify-content: space-evenly;*/
-    background-image: url(/images/mathset.jpg);
+    background-image: url(../images/mathset.jpg);
     background-repeat: no-repeat;
     background-position:center;
     /*background-position-x: 36%;
@@ -353,7 +353,7 @@ header .welcome-greeting {
 }
 
 .bs7 {
-    background-image: url(../images/jesdonal.jpg);
+    background-image: url(\./images/jesdonal.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-position-x: 36%;
