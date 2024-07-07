@@ -358,6 +358,7 @@ header .welcome-greeting {
     background-position:center;
     background-position-x: 36%;
     background-position-y: 34%;
+    background-size: 100% 100%;
 }
 
 .bs9writing {
