@@ -442,6 +442,10 @@ header .upcoming-event {
 /*----------------- Media Query ---------------*/
 /*---------------------------------------------*/
 
+@media (max-width:){
+
+}
+
 @media(max-width:412px){
     .big-header-section {
         margin-bottom: 24px;
