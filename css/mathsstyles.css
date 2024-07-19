@@ -655,6 +655,15 @@ tbody {
     font-size: 1.4rem;
 }
 
+.stud-name {
+    text-align: start;
+}
+
+.totals {
+    text-align: end;
+    font-weight: bolder;
+}
+
 /*----------------- Media Query ---------------*/
 /*---------------------------------------------*/
 
