@@ -8,3 +8,9 @@ navToggle.addEventListener("click", () => {
         primaryNav.setAttribute("data-visible", "true")
     }
 })
+
+function greet(name){
+    console.log(Hello, ${name}!);
+}
+
+greet('Mimmie')

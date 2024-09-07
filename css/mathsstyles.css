@@ -211,6 +211,10 @@ header .upcoming-event {
     margin-right: 40px;
 }
 
+.welcome-div h3{
+    padding-bottom: 1ch;
+}
+
 .heading-line-green {
     width: 5px;
     height: 40px;
